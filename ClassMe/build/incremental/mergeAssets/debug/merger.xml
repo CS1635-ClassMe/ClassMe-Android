@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="19.0.1" >
+        <source path="/home/master/Dropbox/Link to workspace/ClassMe/build/exploded-aar/com.android.support/appcompat-v7/19.0.1/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/master/Dropbox/Link to workspace/ClassMe/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/master/Dropbox/Link to workspace/ClassMe/src/debug/assets" />
+    </dataSet>
+
+</merger>
