@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="search_filter_background">333333</color>
+    <color name="red">#FF5952</color>
+    <color name="tan">#FCEEC9</color>
+    <color name="background_blue">#96D6D9</color>
+    <color name="light_blue">#4FAAC9</color>
+    <color name="dark_blue">#176075</color>
 
 
 </resources>
