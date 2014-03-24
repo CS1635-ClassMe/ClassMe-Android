@@ -22,4 +22,4 @@
 		android:layout_height="wrap_content"
 		android:id="@+id/courseName"
 		android:hint="Course Name"/>
-</LinearLayout><!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/layout/course_search.xml -->
+</LinearLayout><!-- From: file:/Users/BuckYoung/ClassMe-Android/ClassMe/res/layout/course_search.xml -->

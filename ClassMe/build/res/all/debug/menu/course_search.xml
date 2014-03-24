@@ -9,4 +9,4 @@
 		  app:showAsAction="always"
 		  app:actionLayout="@layout/course_search" />
 </menu>
-<!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/menu/course_search.xml -->
+<!-- From: file:/Users/BuckYoung/ClassMe-Android/ClassMe/res/menu/course_search.xml -->

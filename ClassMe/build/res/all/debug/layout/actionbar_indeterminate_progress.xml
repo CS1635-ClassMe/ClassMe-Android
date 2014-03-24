@@ -12,4 +12,4 @@
             android:layout_height="wrap_content"
             android:focusable="true"
             style="@android:style/Widget.ProgressBar.Small"/>
-</LinearLayout> <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/layout/actionbar_indeterminate_progress.xml -->
+</LinearLayout> <!-- From: file:/Users/BuckYoung/ClassMe-Android/ClassMe/res/layout/actionbar_indeterminate_progress.xml -->

@@ -30,4 +30,4 @@
             android:layout_alignParentLeft="true"
             android:layout_toLeftOf="@id/send"/>
 
-</RelativeLayout><!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/layout/view_post.xml -->
+</RelativeLayout><!-- From: file:/Users/BuckYoung/ClassMe-Android/ClassMe/res/layout/view_post.xml -->

@@ -15,4 +15,4 @@
 		  app:showAsAction="always"
 		  app:actionViewClass="android.support.v7.widget.SearchView" />
 </menu>
-<!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/menu/search.xml -->
+<!-- From: file:/Users/BuckYoung/ClassMe-Android/ClassMe/res/menu/search.xml -->

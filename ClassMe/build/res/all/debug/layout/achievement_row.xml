@@ -34,4 +34,4 @@
 		android:textSize="16sp"
 		android:id="@+id/description"/>
 
-</RelativeLayout><!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/layout/achievement_row.xml -->
+</RelativeLayout><!-- From: file:/Users/BuckYoung/ClassMe-Android/ClassMe/res/layout/achievement_row.xml -->

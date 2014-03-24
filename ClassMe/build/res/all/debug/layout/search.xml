@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        >
+        <EditText android:id="@+id/search_text"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Enter a search" />
+
+        <Button android:id="@+id/search_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@colors/search_filter_background"
+        android:layout_margin="50dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Filters:"/>
+
+        <CheckBox android:id="@+id/search_filter_activecourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Active Course"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/search_filter_archivedcourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Archived Course"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/search_filter_Posts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posts"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/search_filter_instructors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instructors"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/search_filter_members"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Members"
+            android:onClick="onCheckboxClicked"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout><!-- From: file:/Users/BuckYoung/ClassMe-Android/ClassMe/res/layout/search.xml -->

@@ -22,4 +22,4 @@
 			android:text="http://"
 			android:layout_below="@+id/textView"
 			android:layout_alignParentLeft="true"/>
-</RelativeLayout><!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/layout/link_dialog.xml -->
+</RelativeLayout><!-- From: file:/Users/BuckYoung/ClassMe-Android/ClassMe/res/layout/link_dialog.xml -->

@@ -24,4 +24,4 @@
             android:layout_toRightOf="@id/commentUsername"
             android:layout_alignTop="@id/commentUsername"/>
 
-</RelativeLayout><!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/layout/single_comment.xml -->
+</RelativeLayout><!-- From: file:/Users/BuckYoung/ClassMe-Android/ClassMe/res/layout/single_comment.xml -->
