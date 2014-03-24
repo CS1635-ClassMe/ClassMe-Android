@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@drawable/card"
+                  android:id="@+id/postLayout">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+			android:layout_marginRight="10dp"
+			android:gravity="center_horizontal"
+			android:id="@+id/scoreLayout">
+
+			<ImageView
+				android:id="@+id/voteUp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				tools:src="@drawable/default_up"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/score"
+				android:textStyle="bold"
+				android:padding="5dp"
+				tools:text="+50"/>
+
+			<ImageView
+				android:id="@+id/voteDown"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				tools:src="@drawable/default_down"/>
+
+		</LinearLayout>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_toRightOf="@id/scoreLayout">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/title"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentLeft="true"
+				android:layout_margin="5dp"/>
+
+			<View
+				android:id="@+id/divider"
+				android:layout_width="fill_parent"
+				android:layout_height="1dp"
+				android:background="#ffafafaf"
+				android:layout_below="@id/title"/>
+
+			<ImageView
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:id="@+id/profileImage"
+				android:layout_below="@+id/divider"
+				android:layout_margin="5dp"
+				android:layout_alignParentLeft="true"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/username"
+				android:textStyle="bold"
+				android:layout_alignTop="@+id/profileImage"
+				android:layout_toRightOf="@+id/profileImage"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/time"
+				android:layout_below="@+id/username"
+				android:layout_toRightOf="@+id/profileImage"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/content"
+				android:layout_below="@+id/profileImage"
+				android:layout_margin="5dp"
+				android:layout_alignParentLeft="true"/>
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:padding="5dp"
+				android:layout_marginRight="5dp"
+				android:id="@+id/numCommentsLayout"
+				android:background="@drawable/border"
+				android:layout_below="@id/content"
+				android:layout_alignParentRight="true">
+
+				<ImageView
+					android:layout_width="14dp"
+					android:layout_height="14dp"
+					android:layout_gravity="center_vertical"
+					android:layout_marginRight="2dp"
+					android:src="@drawable/comment"/>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textStyle="bold"
+					android:layout_gravity="center_vertical"
+					android:id="@+id/numComments"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:id="@+id/commenterProfileLayout"
+				android:layout_toLeftOf="@id/numCommentsLayout"
+				android:layout_alignTop="@id/numCommentsLayout"/>
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+
+    <ViewFlipper
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/postLayout"
+            android:id="@+id/commentFlipper"
+            android:visibility="gone"/>
+
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bottom_shadow"/>
+
+
+</RelativeLayout>

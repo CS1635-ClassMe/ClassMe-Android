@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:orientation="horizontal"
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:gravity="center_vertical">
+
+	<LinearLayout
+		android:id="@+id/row"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical">
+
+		<ImageView
+			android:layout_width="32dp"
+			android:layout_height="32dp"
+			android:src="@drawable/delete_class"
+			android:id="@+id/deleteClass"/>
+
+		<TextView
+			android:id="@+id/subjectCode"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			tools:text="CS"/>
+
+		<View
+			android:layout_width="1dp"
+			android:layout_height="48dp"
+			android:layout_margin="5dp"
+			android:background="#ffafafaf"/>
+
+		<TextView
+			android:id="@+id/courseNumber"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			tools:text="1530"/>
+
+		<View
+			android:layout_width="1dp"
+			android:layout_height="48dp"
+			android:layout_margin="5dp"
+			android:background="#ffafafaf"/>
+
+		<TextView
+			android:id="@+id/courseName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			tools:text="Software Engineering"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/description"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/row"
+		android:layout_marginLeft="48dp"
+		tools:text="THIS COURSE WILL BORE YOU TO DEATH DURING THE LECTURES BUT DOING THE PROJECT IS FUN AT LEAST"/>
+
+</RelativeLayout>

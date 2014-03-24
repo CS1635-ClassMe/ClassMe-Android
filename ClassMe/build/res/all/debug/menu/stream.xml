@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:AddendumMobile="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/newPost"
+        android:title="New Post"
+        android:icon="@drawable/new_post"
+        AddendumMobile:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        AddendumMobile:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          android:showAsAction="never" />
+
+	<item android:id="@+id/logout"
+		  android:title="Logout"
+		  android:showAsAction="never" />
+</menu>
+<!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/menu/stream.xml -->

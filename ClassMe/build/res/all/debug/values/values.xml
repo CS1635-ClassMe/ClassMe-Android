@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/master/Dropbox/Link%20to%20workspace/ClassMe/build/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values/values.xml -->
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/build/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values/values.xml -->
     <eat-comment />
 
     <attr name="actionBarDivider" format="reference" />
@@ -183,6 +183,26 @@
         <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
         <attr name="textAllCaps" format="reference|boolean" />
     </declare-styleable>
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/build/exploded-aar/org.apmem.tools/layouts/1.0/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="debugDraw" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean" />
+        <attr name="layout_horizontalSpacing" format="dimension" />
+        <attr name="layout_verticalSpacing" format="dimension" />
+    </declare-styleable>
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/build/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values/values.xml -->
+    <eat-comment />
+
     <declare-styleable name="LinearLayoutICS">
 
         <!-- Drawable to use as a vertical divider between buttons. -->
@@ -482,13 +502,12 @@
     <dimen name="abc_panel_menu_list_width">296dp</dimen>
     <dimen name="abc_search_view_preferred_width">320dip</dimen>
     <dimen name="abc_search_view_text_min_width">160dip</dimen>
-    <!-- From: file:/home/master/Dropbox/Link%20to%20workspace/ClassMe/res/values/dimens.xml -->
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="navigation_drawer_width">240dp</dimen>
-    <!-- From: file:/home/master/Dropbox/Link%20to%20workspace/ClassMe/build/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values/values.xml -->
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/build/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values/values.xml -->
     <eat-comment />
 
     <item name="action_bar_activity_content" type="id"/>
@@ -513,32 +532,57 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <!-- From: file:/home/master/Dropbox/Link%20to%20workspace/ClassMe/res/values/strings.xml -->
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/values/strings_activity_login.xml -->
     <eat-comment />
 
-    <string name="action_example">Example action</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/values/strings.xml -->
+    <eat-comment />
+
     <string name="action_settings">Settings</string>
-    <string name="app_name">ClassMe</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
-    <!-- From: file:/home/master/Dropbox/Link%20to%20workspace/ClassMe/res/values/styles.xml -->
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/values/strings_activity_login.xml -->
     <eat-comment />
 
-    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
-    </style>
+    <string name="action_sign_in_register">Sign In</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/values/strings.xml -->
+    <eat-comment />
 
-    <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <string name="app_name">Class Me</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="drawer_open">Open Drawer</string>
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/values/strings_activity_login.xml -->
+    <eat-comment />
+
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/values/strings_activity_login.xml -->
+    <eat-comment />
+
+    <string name="login_progress_signing_in">Signing in…</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="title_activity_new_post">New Post</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
     </style>
-    <!-- From: file:/home/master/Dropbox/Link%20to%20workspace/ClassMe/build/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values/values.xml -->
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/build/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values/values.xml -->
     <eat-comment />
 
     <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/master/Dropbox/Link%20to%20workspace/ClassMe/res/values-v14/styles.xml -->
-    <eat-comment />
-
-    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- API 14 theme customizations can go here. -->
-    </style>
-    <!-- From: file:/home/master/Dropbox/Link%20to%20workspace/ClassMe/build/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-v14/values.xml -->
+    <!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/build/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-v14/values.xml -->
     <eat-comment />
 
     <style name="TextAppearance.AppCompat.Base.SearchResult.Subtitle" parent="@android:TextAppearance.Holo.SearchResult.Subtitle" />

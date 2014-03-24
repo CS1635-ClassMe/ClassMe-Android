@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SearchActivity" >
+
+
+	<item android:id="@+id/refresh"
+		  android:title="Refresh"
+		  android:icon="@drawable/ic_menu_refresh"
+		  app:showAsAction="always" />
+
+	<item android:id="@+id/search"
+		  android:title="Post Search"
+		  android:icon="@android:drawable/ic_menu_search"
+		  app:showAsAction="always"
+		  app:actionViewClass="android.support.v7.widget.SearchView" />
+</menu>
+<!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/menu/search.xml -->

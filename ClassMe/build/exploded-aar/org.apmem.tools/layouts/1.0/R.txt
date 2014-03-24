@@ -1,0 +1,18 @@
+int attr debugDraw 0x7f010003
+int attr horizontalSpacing 0x7f010000
+int attr layout_horizontalSpacing 0x7f010005
+int attr layout_newLine 0x7f010004
+int attr layout_verticalSpacing 0x7f010006
+int attr orientation 0x7f010002
+int attr verticalSpacing 0x7f010001
+int id horizontal 0x7f020000
+int id vertical 0x7f020001
+int[] styleable FlowLayout { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003 }
+int styleable FlowLayout_debugDraw 3
+int styleable FlowLayout_horizontalSpacing 0
+int styleable FlowLayout_orientation 2
+int styleable FlowLayout_verticalSpacing 1
+int[] styleable FlowLayout_LayoutParams { 0x7f010004, 0x7f010005, 0x7f010006 }
+int styleable FlowLayout_LayoutParams_layout_horizontalSpacing 1
+int styleable FlowLayout_LayoutParams_layout_newLine 0
+int styleable FlowLayout_LayoutParams_layout_verticalSpacing 2

@@ -20,7 +20,7 @@ android {
     buildToolsVersion "19.0.3"
 
     defaultConfig {
-        minSdkVersion 8
+        minSdkVersion 9
         targetSdkVersion 19
     }
 
@@ -44,9 +44,21 @@ android {
 
         instrumentTest.setRoot('tests')
     }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
 }
 
 dependencies {
     compile 'com.android.support:support-v4:+'
     compile 'com.android.support:appcompat-v7:+'
+    compile 'org.apmem.tools:layouts:1.0@aar'
+    compile files('libs/apache-mime4j-core-0.7.2.jar')
+    compile files('libs/gson-2.2.4.jar')
+    compile files('libs/httpclient-4.1.2.jar')
+    compile files('libs/httpcore-4.1.2.jar')
+    compile files('libs/httpmime-4.1.2.jar')
 }

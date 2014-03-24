@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 	android:id="@+id/headerLayout"
+				android:layout_width="240dp"
+				android:layout_height="120dp">
+
+	<ImageView
+		android:id="@+id/background"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+	<RelativeLayout
+		android:id="@+id/nameLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:paddingBottom="10dp"
+		android:background="#000000">
+
+		<ImageView
+			android:id="@+id/profileImage"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_margin="10dp"/>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center_vertical"
+			android:layout_toRightOf="@id/profileImage"
+			android:layout_centerInParent="true">
+
+			<TextView
+				android:id="@+id/realName"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#FFFFFF"/>
+
+			<TextView
+				android:id="@+id/username"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#FFFFFF"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</FrameLayout><!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/layout/drawer_header.xml -->

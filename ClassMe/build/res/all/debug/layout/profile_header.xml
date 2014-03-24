@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+	<ImageView
+		android:id="@+id/profileImage"
+		android:layout_width="128dp"
+		android:layout_height="128dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+		android:layout_centerHorizontal="true"/>
+
+	<TextView
+		android:id="@+id/realName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/profileImage"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="5dp"
+		android:textStyle="bold"
+		android:textSize="24sp"/>
+
+	<TextView
+		android:id="@+id/username"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/realName"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="10dp"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="32dp"
+		android:layout_below="@id/username"
+		android:orientation="horizontal"
+		android:gravity="center_vertical"
+		android:background="#ffdddddd">
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center_horizontal"
+			android:layout_weight="1">
+
+			<Button
+				android:id="@+id/about"
+				android:layout_width="wrap_content"
+				android:layout_height="28dp"
+				android:background="?android:attr/selectableItemBackground"
+				android:textStyle="bold"
+				android:textSize="14sp"
+				android:text="About"/>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="2dp"
+				android:id="@+id/aboutUnderline"
+				android:background="#ff424bf5"
+				android:visibility="invisible"/>
+
+		</LinearLayout>
+
+
+		<View
+			android:layout_width="1dp"
+			android:layout_height="24dp"
+			android:background="#000000"/>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center_horizontal"
+			android:layout_weight="1">
+
+			<Button
+				android:id="@+id/trophies"
+				android:layout_width="wrap_content"
+				android:layout_height="28dp"
+				android:background="?android:attr/selectableItemBackground"
+				android:textStyle="bold"
+				android:textSize="14sp"
+				android:text="Trophies"/>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="2dp"
+				android:id="@+id/trophiesUnderline"
+				android:background="#ff424bf5"
+				android:visibility="invisible"/>
+
+		</LinearLayout>
+
+		<View
+			android:layout_width="1dp"
+			android:layout_height="24dp"
+			android:background="#000000"/>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center_horizontal"
+			android:layout_weight="1">
+
+			<Button
+				android:id="@+id/posts"
+				android:layout_width="wrap_content"
+				android:layout_height="28dp"
+				android:background="?android:attr/selectableItemBackground"
+				android:textStyle="bold"
+				android:textSize="14sp"
+				android:text="Posts"/>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="2dp"
+				android:id="@+id/postsUnderline"
+				android:background="#ff424bf5"
+				android:visibility="invisible"/>
+
+		</LinearLayout>
+
+		<View
+			android:layout_width="1dp"
+			android:layout_height="24dp"
+			android:background="#000000"/>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center_horizontal"
+			android:layout_weight="1">
+
+			<Button
+				android:id="@+id/classes"
+				android:layout_width="wrap_content"
+				android:layout_height="28dp"
+				android:background="?android:attr/selectableItemBackground"
+				android:textStyle="bold"
+				android:textSize="14sp"
+				android:text="Classes"/>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="2dp"
+				android:id="@+id/classesUnderline"
+				android:background="#ff424bf5"
+				android:visibility="invisible"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout><!-- From: file:/home/master/Dropbox/Homework/CS1635/ClassMe-Android/ClassMe/res/layout/profile_header.xml -->
