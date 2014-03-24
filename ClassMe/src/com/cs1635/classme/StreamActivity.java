@@ -92,7 +92,7 @@ public class StreamActivity extends ActionBarActivity implements ActionBar.OnNav
 		drawerList = (ListView) findViewById(R.id.left_drawer);
 
 		// Set the adapter for the list view
-		String[] strings = {"Home", "My Classes", "Search"};
+		String[] strings = {"Home", "My Classes", "Search", "Chat"};
 		drawerList.addHeaderView(makeHeader());
 		drawerList.setAdapter(new NavigationRowAdapter(this, android.R.layout.simple_dropdown_item_1line, strings));
 		// Set the list's click listener
@@ -116,6 +116,12 @@ public class StreamActivity extends ActionBarActivity implements ActionBar.OnNav
 				if(position == 3) //search
 				{
 					Intent intent = new Intent(context, SearchActivity.class);
+					startActivity(intent);
+				}
+				if(position == 4) //chat
+				{
+					Intent intent = new Intent(context, ChatActivity.class);
+					intent.putExtra("username","Test User");
 					startActivity(intent);
 				}
 			}

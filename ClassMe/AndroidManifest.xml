@@ -65,6 +65,9 @@
 			<meta-data android:name="android.app.searchable"
 					   android:resource="@xml/searchable" />
 		</activity>
+		<activity android:name="com.cs1635.classme.ChatActivity"
+				  android:parentActivityName=".StreamActivity"
+				  android:configChanges="orientation|screenSize"/>
     </application>
 
 </manifest>
