@@ -23,8 +23,7 @@ public class SearchActivity extends ActionBarActivity {
         submitSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent;
-                intent = new Intent(activity, ResultsActivity.class);
+                Intent intent = new Intent(activity, ResultsActivity.class);
                 startActivity(intent);
             }
         });

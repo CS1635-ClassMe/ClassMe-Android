@@ -64,6 +64,12 @@
 			android:configChanges="orientation|screenSize">
 			/>
 		</activity>
+        <activity
+            android:name=".ResultsActivity"
+            android:label="Results"
+            android:configChanges="orientation|screenSize">
+            />
+        </activity>
 
 		<activity android:name="com.cs1635.classme.ChatActivity"
 				  android:parentActivityName=".StreamActivity"
