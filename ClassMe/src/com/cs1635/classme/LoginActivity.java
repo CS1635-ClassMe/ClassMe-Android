@@ -60,9 +60,9 @@ public class LoginActivity extends Activity
 
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 
-		if(prefs.contains("loggedIn"))
+		if(true || prefs.contains("loggedIn")) //TODO: temporary for demo
 		{
-			Intent intent = new Intent(this, StreamActivity.class);
+			Intent intent = new Intent(this, HomeActivity.class);
 			startActivity(intent);
 			finish();
 		}

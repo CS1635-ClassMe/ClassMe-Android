@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:AddendumMobile="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_action_search"
+        AddendumMobile:showAsAction="ifRoom"/>
+
+	<item android:id="@+id/action_settings"
+		  android:title="@string/action_settings"
+		  android:showAsAction="never" />
+
+	<item android:id="@+id/logout"
+		  android:title="Logout"
+		  android:showAsAction="never" />
+</menu>

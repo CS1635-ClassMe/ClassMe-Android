@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:layout_height="match_parent"
+	android:background="@color/background">
+
+	<RelativeLayout
+		android:id="@+id/topLayout"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="4">
+
+		<TextView
+			android:id="@+id/classesLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:textSize="25sp"
+			android:text="My Classes"/>
+
+		<include layout="@layout/hr"
+				 android:id="@+id/hr1"
+				 android:layout_width="match_parent"
+				 android:layout_height="2dp"
+				 android:layout_below="@id/classesLabel"/>
+
+		<include layout="@layout/class_row"
+				 android:id="@+id/classRow"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+				 android:layout_below="@id/hr1"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:id="@+id/bottomLayout"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="3">
+
+		<TextView
+			android:id="@+id/recentLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:textSize="25sp"
+			android:text="Recent Chats"/>
+
+		<include layout="@layout/hr"
+				 android:id="@+id/hr2"
+				 android:layout_width="match_parent"
+				 android:layout_height="2dp"
+				 android:layout_below="@id/recentLabel"/>
+
+		<ListView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_below="@id/hr2"/>
+
+		<include layout="@layout/recent_chat"
+				 android:id="@+id/chatRow"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+				 android:layout_below="@id/hr2"/>
+
+	</RelativeLayout>
+
+</LinearLayout>

@@ -62,7 +62,8 @@
         <activity
             android:name="com.cs1635.classme.SearchActivity"
             android:configChanges="orientation|screenSize"
-            android:label="@string/title_activity_search" >
+            android:label="@string/title_activity_search"
+			android:parentActivityName="com.cs1635.classme.HomeActivity">
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
@@ -70,7 +71,14 @@
         <activity
             android:name="com.cs1635.classme.ChatActivity"
             android:configChanges="orientation|screenSize"
-            android:parentActivityName="com.cs1635.classme.StreamActivity" />
+            android:parentActivityName="com.cs1635.classme.HomeActivity" />
+		<activity
+			android:name="com.cs1635.classme.HomeActivity"
+			android:configChanges="orientation|screenSize"/>
+		<activity
+			android:name="com.cs1635.classme.CourseStreamActivity"
+			android:configChanges="orientation|screenSize"
+			android:parentActivityName="com.cs1635.classme.HomeActivity" />
         <activity
             android:name="com.cs1635.classme.NewCourse"
             android:label="@string/title_activity_new_course" >
@@ -83,7 +91,6 @@
             android:name="com.cs1635.classme.ClassView"
             android:label="@string/title_activity_class_view" >
         </activity>
->>>>>>> e9972eeceb589fb02d82775727d89cfbdd091472
     </application>
 
 </manifest>

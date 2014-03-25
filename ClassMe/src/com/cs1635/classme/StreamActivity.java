@@ -120,7 +120,7 @@ public class StreamActivity extends ActionBarActivity implements ActionBar.OnNav
 				if(position == 4) //chat
 				{
 					Intent intent = new Intent(context, ChatActivity.class);
-					intent.putExtra("username","Test User");
+					intent.putExtra("username","Aamir");
 					startActivity(intent);
 				}
 			}
