@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="5dp">
+
+	<TextView
+		android:id="@+id/instructorLabel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="5dp"
+		android:layout_marginBottom="5dp"
+		android:text="Instructor:"/>
+	
+	<TextView
+		android:id="@+id/instructor"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/instructorLabel"
+		android:text="Jingtao Wang"/>
+	
+	<TextView
+		android:id="@+id/sectionLabel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/instructorLabel"
+		android:layout_marginRight="5dp"
+		android:text="Section:"/>
+
+	<TextView
+		android:id="@+id/section"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/instructorLabel"
+		android:layout_toRightOf="@id/sectionLabel"
+		android:text="2014 Spring"/>
+
+</RelativeLayout>

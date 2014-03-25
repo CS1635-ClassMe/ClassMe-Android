@@ -8,5 +8,21 @@
     <string name="drawer_close">Close Drawer</string>
     <string name="title_activity_new_post">New Post</string>
     <string name="title_activity_search">SearchActivity</string>
-
+    <string name="title_activity_new_course">New Course</string>
+    <string name="name">Name:</string>
+    <string name="instr">Instructors:</string>
+    <string name="section">Section:</string>
+    <string name="info">Info:</string>
+    <string name="cnhints">CS1635</string>
+    <string name="title_activity_members">Members</string>
+    <string name="chat">Start Chat</string>
+    <string name="sname">Name</string>
+    <string name="sact">last activity</string>
+    <string name="title_activity_class_view">Name of Class</string>
+    <string name="mem">Members</string>
+    <string name="com">Comment</string>
+	<string name="Sort">Sort by:</string>
+	<string name="SortT">Time</string>
+	<string name="SortP">Popular</string>
+	<string name="content">Content</string>
 </resources>
