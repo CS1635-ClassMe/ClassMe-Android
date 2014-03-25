@@ -132,7 +132,7 @@ public final class R {
 		public static final int abc_split_action_bar_is_narrow = 0x7f060005;
 	}
 	public static final class color {
-		public static final int abc_search_url_text_holo = 0x7f070003;
+		public static final int abc_search_url_text_holo = 0x7f07000b;
 		public static final int abc_search_url_text_normal = 0x7f070000;
 		public static final int abc_search_url_text_pressed = 0x7f070001;
 		public static final int abc_search_url_text_selected = 0x7f070002;
@@ -334,7 +334,7 @@ public final class R {
 		public static final int abc_popup_menu_item_layout = 0x7f030014;
 		public static final int abc_search_dropdown_item_icons_2line = 0x7f030015;
 		public static final int abc_search_view = 0x7f030016;
-		public static final int support_simple_spinner_dropdown_item = 0x7f03002f;
+		public static final int support_simple_spinner_dropdown_item = 0x7f030033;
 	}
 	public static final class string {
 		public static final int abc_action_bar_home_description = 0x7f0b0000;

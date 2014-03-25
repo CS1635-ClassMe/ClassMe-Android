@@ -75,7 +75,7 @@ public class ClassSearchActivity extends ActionBarActivity implements SearchView
 		SearchView searchView = (SearchView) MenuItemCompat.getActionView(search);
 		if (searchView != null)
 		{
-			searchView.setQueryHint("Search for courses");
+			searchView.setQueryHint("SearchActivity for courses");
 			searchView.setOnQueryTextListener(this);
 		}
 

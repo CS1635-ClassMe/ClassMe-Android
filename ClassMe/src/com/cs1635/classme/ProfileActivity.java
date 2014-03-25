@@ -47,7 +47,6 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.Random;
 
 public class ProfileActivity extends ActionBarActivity
 {
@@ -97,7 +96,7 @@ public class ProfileActivity extends ActionBarActivity
 			drawerList = (ListView) findViewById(R.id.left_drawer);
 
 			// Set the adapter for the list view
-			String[] strings = {"Home", "My Classes", "Search"};
+			String[] strings = {"Home", "My Classes", "SearchActivity"};
 			drawerList.addHeaderView(makeHeader());
 			drawerList.setAdapter(new NavigationRowAdapter(context,0,strings));
 			// Set the list's click listener
@@ -118,7 +117,7 @@ public class ProfileActivity extends ActionBarActivity
 					}
 					if(position == 3) //search
 					{
-						Intent intent = new Intent(context, SearchActivity.class);
+						Intent intent = new Intent(context, OldSearchActivity.class);
 						startActivity(intent);
 					}
 				}

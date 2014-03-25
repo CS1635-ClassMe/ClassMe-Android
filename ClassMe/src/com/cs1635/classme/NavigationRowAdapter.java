@@ -30,7 +30,7 @@ public class NavigationRowAdapter extends ArrayAdapter<String>
 		ImageView icon = (ImageView) v.findViewById(R.id.icon);
 
 		optionText.setText(options[position]);
-		if(options[position].equals("Search"))
+		if(options[position].equals("SearchActivity"))
 			icon.setBackgroundResource(android.R.drawable.ic_menu_search);
 		if(options[position].equals("Home"))
 			icon.setBackgroundResource(R.drawable.home);

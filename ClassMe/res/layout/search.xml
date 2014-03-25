@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/background_blue">
 
 
     <LinearLayout
@@ -17,7 +18,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Enter a search" />
+            android:hint="Enter a search" />
 
         <Button android:id="@+id/search_submit"
             android:layout_width="wrap_content"
@@ -29,13 +30,16 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/blue_background"
         android:layout_margin="50dp">
+
 
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/muted"
             android:text="Filters:"/>
+        <include layout="@layout/hr" />
+
 
         <CheckBox android:id="@+id/search_filter_activecourse"
             android:layout_width="wrap_content"

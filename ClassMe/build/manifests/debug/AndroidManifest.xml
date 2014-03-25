@@ -27,8 +27,9 @@
 		<activity android:configChanges="orientation|screenSize" android:label="@string/app_name" android:name="com.cs1635.classme.ClassSearchActivity">
 		</activity>
 		<activity android:configChanges="orientation|screenSize" android:label="@string/title_activity_search" android:name="com.cs1635.classme.SearchActivity">
-			<meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+			/&gt;
 		</activity>
+
 		<activity android:configChanges="orientation|screenSize" android:name="com.cs1635.classme.ChatActivity" android:parentActivityName="com.cs1635.classme.StreamActivity"/>
     </application>
 
