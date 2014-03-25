@@ -15,7 +15,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/chat" />
+        android:text="@string/chat"
+        android:background="@color/green" />
 
     <TableLayout
         android:id="@+id/tableLayout1"
@@ -23,7 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/chat"
         android:layout_alignRight="@+id/chat"
-        android:layout_below="@+id/chat" >
+        android:layout_below="@+id/chat"
+        android:background="@color/white" >
 
         <TableRow
             android:id="@+id/tableRow1"
@@ -39,7 +41,7 @@
             <QuickContactBadge
                 android:id="@+id/quickContactBadge1"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
 
             <TextView
                 android:id="@+id/sp"
@@ -72,7 +74,7 @@
             <QuickContactBadge
                 android:id="@+id/QuickContactBadge05"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
 
             <TextView
                 android:id="@+id/TextView09"
@@ -105,7 +107,7 @@
             <QuickContactBadge
                 android:id="@+id/QuickContactBadge04"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
 
             <TextView
                 android:id="@+id/TextView07"
@@ -138,7 +140,7 @@
             <QuickContactBadge
                 android:id="@+id/QuickContactBadge03"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
 
             <TextView
                 android:id="@+id/TextView05"
@@ -171,7 +173,7 @@
             <QuickContactBadge
                 android:id="@+id/QuickContactBadge02"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
 
             <TextView
                 android:id="@+id/TextView03"
@@ -204,7 +206,7 @@
             <QuickContactBadge
                 android:id="@+id/QuickContactBadge01"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
 
             <TextView
                 android:id="@+id/TextView01"
