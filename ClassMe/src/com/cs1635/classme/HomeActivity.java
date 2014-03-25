@@ -37,6 +37,7 @@ public class HomeActivity extends ActionBarActivity
 			public void onClick(View v)
 			{
 				Intent intent = new Intent(activity,ChatActivity.class);
+				intent.putExtra("username","Aamir");
 				startActivity(intent);
 			}
 		});

@@ -81,14 +81,18 @@
 			android:parentActivityName="com.cs1635.classme.HomeActivity" />
         <activity
             android:name="com.cs1635.classme.NewCourse"
+			android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_new_course" >
         </activity>
         <activity
             android:name="com.cs1635.classme.Members"
-            android:label="@string/title_activity_members" >
+            android:label="@string/title_activity_members"
+			android:configChanges="orientation|screenSize"
+			android:parentActivityName="com.cs1635.classme.CourseStreamActivity">
         </activity>
         <activity
             android:name="com.cs1635.classme.ClassView"
+			android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_class_view" >
         </activity>
     </application>

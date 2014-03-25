@@ -114,10 +114,25 @@
 			 android:layout_marginTop="5dp"
 			 android:layout_marginBottom="5dp"/>
 
-	<ListView
-		android:id="@+id/postList"
+
+	<RelativeLayout
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		android:layout_below="@id/hr2"/>
+		android:padding="10dp"
+		android:layout_below="@id/hr2">
+
+		<ListView
+			android:id="@+id/postList"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+
+		<TextView android:id="@+id/empty"
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:layout_centerInParent="true"
+				  android:visibility="gone"
+				  android:text="No Posts To Show"/>
+
+	</RelativeLayout>
 
 </RelativeLayout>
